@@ -1,6 +1,7 @@
 
 import { createGlobalStyle } from 'styled-components'
 import PaginaDoCartao from './Pagina/PaginaDoCartao';
+import Formulario from './Componentes/Formulario'
 
 const GlobalStyles = createGlobalStyle`
   * {
@@ -15,7 +16,7 @@ function App() {
   return (
     <>
       <GlobalStyles />
-      <PaginaDoCartao/>
+      <PaginaDoCartao />
     </>
   );
 }
